@@ -1,0 +1,33 @@
+.amount-item {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  .amount-item-icon-wrap {
+    margin-right: 36px;
+    width: 72px;
+    height: 72px;
+    background-color: #f4f4f3;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .amount-item-content {
+    position: relative;
+    font-size: 26px;
+    flex: 1;
+    padding: 24px 30px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    height: 72px;
+    .remark {
+      margin-right: auto;
+    }
+    .border-bottom {
+      // @include border-bottom(rgba(105, 77, 77, 0.23), 1px);
+    }
+  }
+}

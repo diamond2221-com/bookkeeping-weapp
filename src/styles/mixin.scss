@@ -1,0 +1,39 @@
+@mixin border-right($color, $width) {
+  background-color: $color;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: $width;
+  height: 100%;
+  transform: scaleX(0.5);
+}
+
+@mixin border-left($color, $width) {
+  background-color: $color;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: $width;
+  height: 100%;
+  transform: scaleX(0.5);
+}
+
+@mixin border-top($color, $width) {
+  background-color: $color;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $width;
+  transform: scaleY(0.5);
+}
+
+@mixin border-bottom($color, $width) {
+  background-color: $color;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: $width;
+  transform: scaleY(0.5);
+}

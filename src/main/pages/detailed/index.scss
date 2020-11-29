@@ -1,0 +1,59 @@
+.index {
+  padding-top: 130px;
+  .header-bar {
+    background-color: $base_color;
+    padding: 6px 40px 16px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 130rpx;
+    box-sizing: border-box;
+    .header-bar-item {
+      flex: 5.5;
+      &.date-wrap {
+        flex: 3;
+        margin-right: 56px;
+        .month-wrap.money-wrap {
+          position: relative;
+          padding: 4px 0;
+          .right-line {
+            @include border-right(#96822c, 1px);
+          }
+          .arrow-icon {
+            width: 26px;
+            height: 26px;
+            margin-left: 6px;
+          }
+          .unit {
+            margin-bottom: 4px;
+          }
+        }
+      }
+      .item-title {
+        color: #666;
+        font-size: 23px;
+      }
+      .money-wrap {
+        color: $base_text_color;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-top: 28px;
+        .value {
+          line-height: 40px;
+          font-size: 44px;
+        }
+        .unit {
+          font-size: 26px;
+          line-height: 1;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+
+}

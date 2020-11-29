@@ -1,0 +1,41 @@
+.amount-list {
+  .item-head {
+    padding: 24px 30px 24px 30px;
+    line-height: 1;
+    color: #666;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .date-wrap,
+    .money-wrap {
+      display: flex;
+      align-items: center;
+    }
+    .date-wrap {
+      margin-right: auto;
+      font-size: 20px;
+      .date {
+        margin-right: 4px;
+      }
+    }
+    .money-wrap {
+      font-size: 22px;
+    }
+    .bottom-line {
+      @include border-bottom(#dddddd, 1px);
+    }
+  }
+  .amount-list-container {
+    .amount-item {
+      .border-bottom {
+        @include border-bottom(#e8e8e8, 1px);
+      }
+      &:last-child {
+        .border-bottom {
+          display: none;
+        }
+      }
+    }
+
+  }
+}
