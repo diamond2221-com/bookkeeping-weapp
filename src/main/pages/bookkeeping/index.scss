@@ -1,0 +1,31 @@
+.bookkeeping {
+  .tab-wrap {
+    background-color: $base_color;
+    color: $base_text_color;
+    padding: 20px 0;
+    box-sizing: border-box;
+    .tab-container {
+      line-height: 50px;
+      height: 50px;
+      margin: 0 80px;
+      border-radius: 8px;
+      border: 1px solid $base_text_color;
+      flex: 1;
+      font-size: 28px;
+      .tab-item {
+        flex: 1;
+        &.select {
+          background-color: $base_text_color;
+          color: $base_color;
+        }
+      }
+      .tab-item-line-wrap {
+        position: relative;
+        height: 100%;
+        .tab-item-line {
+          @include border-right($base_text_color, 1px);
+        }
+      }
+    }
+  }
+}

@@ -3,3 +3,9 @@
 .touch-style {
   background-color: $main_touch_color !important;
 }
+
+.middle-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -41,5 +41,24 @@
   "compileType": "miniprogram",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {}
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "main/pages/bookkeeping/index",
+          "pathName": "main/pages/bookkeeping/index",
+          "scene": null
+        }
+      ]
+    }
+  }
 }
