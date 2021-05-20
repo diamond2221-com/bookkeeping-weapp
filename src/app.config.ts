@@ -4,6 +4,7 @@ export default {
     'main/pages/bookkeeping/index',
     'main/pages/login/index',
     'main/pages/my/index',
+    "main/pages/ence_push/ence_push",
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -21,8 +21,9 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -56,6 +57,12 @@
         {
           "name": "main/pages/bookkeeping/index",
           "pathName": "main/pages/bookkeeping/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "main/pages/ence_push/ence_push",
+          "pathName": "main/pages/ence_push/ence_push",
           "scene": null
         }
       ]

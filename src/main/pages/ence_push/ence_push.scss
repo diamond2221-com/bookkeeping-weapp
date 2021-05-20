@@ -1,0 +1,124 @@
+.wrap{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction:column;
+}
+.wrap_title {
+  flex: 1;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+
+}
+.wrap_title_top{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 40px;
+  color: #4687F7;
+  font-weight: 600;
+}
+.topstyle {
+  margin-top: 80px
+}
+.wrap_middle{
+  flex: 1;
+  width: 100%;
+  height: 450px;
+}
+.wrap_middle image {
+  display: block;
+  width: 530px;
+  height: 100%;
+  margin: 0 auto;
+}
+.wrap_bottom {
+  flex: 1;
+  width: 100%;
+  padding-top: 90px;
+}
+
+.form_box {
+  width: 100%;
+  height: 300px;
+  background-color: #999
+}
+.form_box_btn_ {
+  position: relative;
+  background-color: #fff;
+  width: 195px;
+  height: 190px;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 34px;
+  background: linear-gradient(to right, #5093ee , #06b4f1);
+  background: -webkit-linear-gradient(top right, #06b4f1, #5093ee );
+  border-radius: 100%;
+  font-size: 24px;
+  word-break: break-all;
+}
+.form_box_btn {
+  position: relative;
+  background-color: #fff;
+  width: 195px;
+  height: 190px;
+  color: #fff;
+  line-height: 190px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #5093ee , #06b4f1);
+  background: -webkit-linear-gradient(top right, #06b4f1, #5093ee );
+  border-radius: 100%;
+}
+.wrap_bottom_img {
+  width: 100%;
+  height: 200px;
+}
+.wrap_bottom_img image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.wrap_bottom_num {
+  text-align: center;
+  font-size: 24px;
+  color: #999;
+  margin-top: 50px
+}
+.wrap_bottom_num .num {
+  display: inline;
+  color: #4687F7;
+  font-size:30px;
+}
+.form_box_btn text {
+  position: absolute;
+  top:95px;
+  left:106px;
+  color: #fff;
+}
+.form_box_btn::after {
+  border: none;
+}
+.ex_tip{
+  width:650px;
+  height: 40px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin:auto;
+  padding:20px;
+  background:rgba(0, 0, 0, .6);
+  text-align: center;
+  color:#fff;
+  z-index: 100;
+  border-radius: 6px;
+}
